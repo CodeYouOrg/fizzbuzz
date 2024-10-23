@@ -18,3 +18,4 @@ def test_output(monkeypatch):
         result = mocked_stdout.getvalue()
         result = "".join(result.split()) # remove all whitespace characters
         assert result == expected_output
+
