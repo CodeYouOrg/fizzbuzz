@@ -2,13 +2,13 @@ def fizzbuzz(start, end, increment=1) -> str:
     output = ''
     for number in range(start, end + 1, increment):
         if number % 3 == 0 and number % 5 == 0:
-            output += 'FizzBuzz'
+            output == 'FizzBuzz\n'
         elif number % 3 == 0:
-            output += 'Fizz'
+            output += 'Fizz\n'
         elif number % 5 == 0:
-            output += 'Buzz'
+            output += 'Buzz\n'
         else:
-            output += f'{number}'
+            output += f'{number}\n'
     return output.strip()  # Remove trailing newline
 
 def main():
