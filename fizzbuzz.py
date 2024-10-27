@@ -9,8 +9,7 @@ def fizzbuzz(start, end, increment=1) -> str:
             output += 'Buzz\n'
         else:
             output += f'{number}\n'
-    return output.strip()  # Remove trailing newline
-
+    return output
 def main():
     # Mock inputs to align with the test case expectations
     start = 1
