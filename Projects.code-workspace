@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"name": "data_2024",
+			"path": "../data_2024"
+		},
+		{
+			"name": "fizzbuzz",
+			"path": "."
+		}
+	],
+	"settings": {}
+}
