@@ -20,7 +20,7 @@ def Fizz_Buzz(number):
 
         else: 
 
-            print('x')
+            print(x)
 
 
 Fizz_Buzz(number='')
